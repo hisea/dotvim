@@ -1,14 +1,3 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
-
-let g:dotvim_path='~/.vim/'
-let g:dotvim_conf_path=g:dotvim_path . 'configs/'
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
 runtime! configs/*.vim
 runtime! configs/plugins/*.vim
 

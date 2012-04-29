@@ -1,3 +1,11 @@
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
  "Language
 Bundle 'kchmck/vim-coffee-script.git'
 Bundle 'vim-scripts/csv.vim.git'
