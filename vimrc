@@ -9,10 +9,9 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-exec 'source ' . g:dotvim_conf_path . 'bundles.vim'
-exec 'source ' . g:dotvim_conf_path . 'settings.vim'
-exec 'source ' . g:dotvim_conf_path . 'mappings.vim'
- 
+runtime! configs/*.vim
+runtime! configs/plugins/*.vim
+
 syntax on
 filetype plugin indent on
 
@@ -32,8 +31,3 @@ if has("gui_running")
   autocmd VimResized * wincmd = "Automatically resize splits when resizing MacVim window
 endif
 
-"NERDTree
-autocmd vimenter * if !argc() | NERDTree | endif
-
-"Key mappings
-map <Leader>n :NERDTreeToggle<CR>
