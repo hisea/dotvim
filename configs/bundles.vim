@@ -33,3 +33,7 @@ Bundle "chriskempson/vim-tomorrow-theme.git"
 "Tools
 Bundle "Lokaltog/vim-powerline.git"
 Bundle "scrooloose/nerdtree.git"
+Bundle 'kien/ctrlp.vim.git'
+Bundle 'tpope/vim-endwise.git'
+Bundle 'scrooloose/nerdcommenter.git'
+Bundle 'rgarver/Kwbd.vim.git'
