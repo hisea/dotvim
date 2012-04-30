@@ -17,7 +17,13 @@ set smarttab
 set showmatch " show matching brackets
 set cursorline
 set visualbell
+set smartindent
 
+if v:version >= 703
+    "undo settings
+    set undodir=~/.vim/undofiles
+    set undofile
+endif
 ""
 "" Whitespace
 ""

@@ -6,7 +6,7 @@ filetype plugin indent on
 
 "GUI Setting
 color Tomorrow-Night
-set guifont=Menlo\ for\ Powerline:h14
+set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h13
 set showtabline=2
 set linespace=2
 let g:Powerline_symbols = 'fancy'
