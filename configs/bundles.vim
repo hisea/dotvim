@@ -31,9 +31,24 @@ Bundle 'timcharper/textile.vim.git'
 Bundle "chriskempson/vim-tomorrow-theme.git"
 
 "Tools
+Bundle 'MarcWeber/vim-addon-mw-utils.git'
 Bundle "Lokaltog/vim-powerline.git"
 Bundle "scrooloose/nerdtree.git"
 Bundle 'kien/ctrlp.vim.git'
 Bundle 'tpope/vim-endwise.git'
 Bundle 'scrooloose/nerdcommenter.git'
 Bundle 'rgarver/Kwbd.vim.git'
+Bundle 'garbas/vim-snipmate.git'
+Bundle 'honza/snipmate-snippets.git'
+Bundle 'ervandew/supertab.git'
+Bundle 'tpope/vim-surround.git'
+Bundle 'scrooloose/syntastic.git'
+Bundle 'mattn/gist-vim.git'
+Bundle 'sjl/gundo.vim.git'
+Bundle 'majutsushi/tagbar.git'
+Bundle 'tomtom/tlib_vim.git'
+Bundle 'skalnik/vim-vroom.git'
+Bundle 'mattn/webapi-vim.git'
+Bundle 'michaeljsmith/vim-indent-object.git'
+Bundle 'jeetsukumaran/vim-buffergator.git'
+Bundle 'mileszs/ack.vim.git'

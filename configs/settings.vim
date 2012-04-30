@@ -18,7 +18,6 @@ set showmatch " show matching brackets
 set cursorline
 set visualbell
 
-
 ""
 "" Whitespace
 ""
@@ -56,6 +55,7 @@ set smartcase   " ... unless they contain at least one capital letter
 "" Wild settings
 ""
 set wildmenu
+set wildignorecase
 " TODO: Investigate the precise meaning of these settings
 " set wildmode=list:longest,list:full
 
