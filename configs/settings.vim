@@ -61,7 +61,7 @@ set smartcase   " ... unless they contain at least one capital letter
 "" Wild settings
 ""
 set wildmenu
-set wildignorecase
+"set wildignorecase
 " TODO: Investigate the precise meaning of these settings
 " set wildmode=list:longest,list:full
 
