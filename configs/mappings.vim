@@ -27,6 +27,8 @@ nmap <silent> <leader>cd :lcd %:h<CR>
 " Create the directory containing the file in the buffer
 nmap <silent> <leader>md :!mkdir -p %:p:h<CR>
 
+" Easy toggle between window
+nmap <leader>w <C-w>w
 " Some helpers to edit mode
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
