@@ -8,3 +8,7 @@
 
 ### Screenshot
 ![Screenshot](https://github.com/hisea/dotvim/raw/master/screenshot.png)
+
+### Fonts for Powerline
+[Bitstream Vera](https://gist.github.com/1695735)
+[Inconsola,Menlo,Mensch](https://gist.github.com/1595572)
