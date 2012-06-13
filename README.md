@@ -5,3 +5,6 @@
 > git submodule init    
 > git submodule update    
 > mvim -u ~/.vim/configs/bundles.vim +BundleInstall +q    
+
+### Screenshot
+![Screenshot](https://github.com/hisea/dotvim/raw/master/screenshot.png)
