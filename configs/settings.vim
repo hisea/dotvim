@@ -24,6 +24,11 @@ if v:version >= 703
     set undodir=~/.vim/undofiles
     set undofile
 endif
+
+
+let g:airline_powerline_fonts=1
+let g:airline_theme='dark'
+
 ""
 "" Whitespace
 ""

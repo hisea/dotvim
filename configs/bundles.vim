@@ -23,6 +23,7 @@ Bundle 'vim-ruby/vim-ruby.git'
 Bundle 'rosstimson/scala-vim-support.git'
 Bundle 'cakebaker/scss-syntax.vim.git'
 Bundle 'timcharper/textile.vim.git'
+Bundle 'slim-template/vim-slim'
 
 
 
@@ -32,7 +33,7 @@ Bundle "chriskempson/vim-tomorrow-theme.git"
 
 "Tools
 Bundle 'MarcWeber/vim-addon-mw-utils.git'
-Bundle "Lokaltog/vim-powerline.git"
+Bundle 'bling/vim-airline'
 Bundle "scrooloose/nerdtree.git"
 Bundle 'kien/ctrlp.vim.git'
 Bundle 'tpope/vim-endwise.git'
