@@ -1,6 +1,7 @@
 ""
 "" Basic Setup
 ""
+
 set nocompatible      " Use vim, no vi defaults
 set number            " Show line numbers
 set ruler             " Show line and column number
@@ -25,8 +26,8 @@ if v:version >= 703
     set undofile
 endif
 
-
 let g:airline_theme='dark'
+let g:syntastic_javascript_checkers = ['jshint']
 
 ""
 "" Whitespace
