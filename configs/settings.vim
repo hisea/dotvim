@@ -26,7 +26,6 @@ if v:version >= 703
     set undofile
 endif
 
-let g:airline_theme='dark'
 let g:syntastic_javascript_checkers = ['jshint']
 
 ""
