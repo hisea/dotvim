@@ -6,6 +6,8 @@
 " (it will prompt for sudo password when writing)
 cmap w!! %!sudo tee > /dev/null %
 
+"Reload Config
+map <leader>rv :so $MYVIMRC<CR>
 " Toggle paste mode
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
@@ -28,7 +30,9 @@ nmap <silent> <leader>cd :lcd %:h<CR>
 nmap <silent> <leader>md :!mkdir -p %:p:h<CR>
 
 " Easy toggle between window
-nmap <leader>w <C-w>w
+nmap <leader>ww <C-w>w
+"Close Window
+nmap <leader>wq <C-w>q
 " Some helpers to edit mode
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>
