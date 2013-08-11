@@ -24,12 +24,14 @@ Bundle 'rosstimson/scala-vim-support.git'
 Bundle 'cakebaker/scss-syntax.vim.git'
 Bundle 'timcharper/textile.vim.git'
 Bundle 'slim-template/vim-slim'
+Bundle 'elixir-lang/vim-elixir'
 
 
 
 
 "Colors
 Bundle "chriskempson/vim-tomorrow-theme.git"
+Bundle "altercation/vim-colors-solarized"
 
 "Tools
 Bundle 'MarcWeber/vim-addon-mw-utils.git'
@@ -43,8 +45,8 @@ Bundle 'garbas/vim-snipmate.git'
 Bundle 'ervandew/supertab.git'
 Bundle 'tpope/vim-surround.git'
 Bundle 'scrooloose/syntastic.git'
-"Bundle 'SirVer/ultisnips'
-Bundle 'honza/vim-snippets'
+Bundle 'SirVer/ultisnips'
+"Bundle 'honza/vim-snippets'
 Bundle 'mattn/gist-vim.git'
 Bundle 'sjl/gundo.vim.git'
 Bundle 'majutsushi/tagbar.git'

@@ -6,7 +6,7 @@ if has("gui_macvim") && has("gui_running")
 
   if maparg("<C-f>") == ":dummy"
     " <leader>f on systems where <C-f> == <C-F>
-    map <leader>f :Ag<space>
+    map <leader>ag :Ag<space>
   else
     " <C-F> if we can still map <C-f> to <S-Down>
     map <C-F> :Ag<space>
