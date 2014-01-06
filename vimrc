@@ -9,8 +9,8 @@ colorscheme solarized
 
 "GUI Setting
 "colorscheme Tomorrow-Night "Eighties
-"set guifont=Liberation\ Mono\ for\ Powerline:h14
-set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
+set guifont=Liberation\ Mono\ for\ Powerline:h14
+"set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
 
 set showtabline=2
 set linespace=2
