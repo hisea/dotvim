@@ -33,6 +33,11 @@ nmap <silent> <leader>md :!mkdir -p %:p:h<CR>
 nmap <leader>ww <C-w>w
 "Close Window
 nmap <leader>wq <C-w>q
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 " Some helpers to edit mode
 " http://vimcasts.org/e/14
 cnoremap %% <C-R>=expand('%:h').'/'<cr>

@@ -27,8 +27,6 @@ Bundle 'slim-template/vim-slim'
 Bundle 'elixir-lang/vim-elixir'
 
 
-
-
 "Colors
 Bundle "chriskempson/vim-tomorrow-theme.git"
 Bundle "altercation/vim-colors-solarized"
@@ -40,6 +38,10 @@ Bundle "scrooloose/nerdtree.git"
 Bundle 'kien/ctrlp.vim.git'
 Bundle 'tpope/vim-endwise.git'
 Bundle 'scrooloose/nerdcommenter.git'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'vim-scripts/ZoomWin'
 Bundle 'rgarver/Kwbd.vim.git'
 Bundle 'garbas/vim-snipmate.git'
 Bundle 'ervandew/supertab.git'
