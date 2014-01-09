@@ -14,7 +14,7 @@ set guifont=Liberation\ Mono\ for\ Powerline:h14
 
 set showtabline=2
 set linespace=2
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 
 " Set VIM window settings
 if has("gui_running")
