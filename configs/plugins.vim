@@ -87,7 +87,7 @@ let NERDTreeShowBookmarks=1
 let NERDTreeMouseMode=2
 let NERDTreeShowHidden=1
 let g:nerdtree_tabs_open_on_gui_startup=0
-let NERDTreeWinSize=26
+let NERDTreeWinSize=36
 
 "syntastic
 
