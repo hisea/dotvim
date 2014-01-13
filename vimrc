@@ -3,9 +3,7 @@ runtime! configs/plugins/*.vim
 
 syntax enable
 filetype plugin indent on
-
-let s:background = 'dark'
-colorscheme solarized
+set encoding=utf-8
 
 "GUI Setting
 "colorscheme Tomorrow-Night "Eighties
@@ -14,7 +12,8 @@ set guifont=Liberation\ Mono\ for\ Powerline:h14
 
 set showtabline=2
 set linespace=2
-"let g:Powerline_symbols = 'fancy'
+let s:background = 'dark'
+colorscheme solarized
 
 " Set VIM window settings
 if has("gui_running")
