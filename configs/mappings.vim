@@ -57,6 +57,7 @@ nmap <silent> <leader>tw :set invwrap<CR>:set wrap?<CR>
 
 " find merge conflict markers
 nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
+nmap <leader>fac :Ag "^[<\|=\|>]{7}$"<CR>
 
 " Map the arrow keys to be based on display lines, not physical lines
 map <Down> gj
