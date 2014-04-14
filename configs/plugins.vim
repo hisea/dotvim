@@ -18,8 +18,6 @@ endif
 
 
 " Airline
-let s:background = "dark"
-let g:airline_theme='solarized'
 
 " old vim-powerline symbols
 "let g:airline_left_sep = '⮀'
@@ -76,7 +74,7 @@ else
 endif
 
 " NERDTree
-autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * if !argc() | NERDTree | endif
 
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
 
@@ -86,7 +84,7 @@ let NERDTreeShowBookmarks=1
 "let NERDTreeQuitOnOpen=1
 let NERDTreeMouseMode=2
 let NERDTreeShowHidden=1
-let g:nerdtree_tabs_open_on_gui_startup=0
+"let g:nerdtree_tabs_open_on_gui_startup=0
 let NERDTreeWinSize=36
 
 "syntastic
