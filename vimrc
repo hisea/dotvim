@@ -6,7 +6,8 @@ filetype plugin indent on
 set encoding=utf-8
 
 "GUI Setting
-"colorscheme Tomorrow-Night "Eighties
+colorscheme Tomorrow-Night "Eighties
+let g:airline_theme='tomorrow'
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
 
 set showtabline=2
@@ -15,9 +16,7 @@ set linespace=2
 " Set VIM window settings
 if has("gui_running")
   let s:background = 'dark'
-  let s:background = "dark"
-  let g:airline_theme='solarized'
-  colorscheme solarized
+  "colorscheme solarized
   set guifont=Liberation\ Mono\ for\ Powerline:h14
   let g:airline_powerline_fonts=1
   set guioptions-=T  "Remove toolbar
