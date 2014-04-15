@@ -7,7 +7,9 @@ set encoding=utf-8
 
 "GUI Setting
 colorscheme Tomorrow-Night "Eighties
+let s:background = 'dark'
 "colorscheme base16-default
+let g:airline_theme='tomorrow'
 "set guifont=Bitstream\ Vera\ Sans\ Mono\ for\ Powerline:h14
 
 set showtabline=2
@@ -15,7 +17,6 @@ set linespace=2
 
 " Set VIM window settings
 if has("gui_running")
-  let s:background = "dark"
   "let g:airline_theme='solarized'
   "colorscheme solarized
   set guifont=Liberation\ Mono\ for\ Powerline:h14
