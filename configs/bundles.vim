@@ -32,6 +32,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'altercation/vim-colors-solarized'
 
 "Tools
+Plugin 'tpope/vim-rbenv'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'spf13/vim-autoclose'
 Plugin 'bling/vim-airline'
