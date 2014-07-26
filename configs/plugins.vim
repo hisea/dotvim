@@ -52,9 +52,8 @@ let g:ctrlp_custom_ignore = {
   \ }
 
 let g:ctrlp_dont_split = 'NERD_tree_2'
-
-let g:ctrlp_map = '<D-t>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_extensions = ['funky']
 
 " EasyMotion
 let g:EasyMotion_leader_key = '<Leader>e'
@@ -78,7 +77,7 @@ endif
 
 let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
 
-map <Leader>n :NERDTreeToggle<CR>
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
 
 let NERDTreeShowBookmarks=1
 "let NERDTreeQuitOnOpen=1
@@ -93,3 +92,13 @@ let g:syntastic_enable_signs=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_auto_loc_list=2
 
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
