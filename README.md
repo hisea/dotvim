@@ -1,8 +1,16 @@
 ### Install
 > git clone git@github.com:hisea/dotvim.git .vim
+
 > ln -s .vim/vimrc .vimrc
-> git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+> ln -s .vim/gvimrc .gvimrc
+
 > cd .vim
+
+> git submodule init
+
+> git submodule update
+
 > mvim -u ~/.vim/configs/bundles.vim +PluginInstall +qall
 
 ### Screenshot

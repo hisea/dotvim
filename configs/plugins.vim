@@ -47,7 +47,7 @@ map <C-b> :BufExplorerHorizontalSplit<CR>
 
 " CtrlP
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|.bundle$\|bundle$\|vundle$',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|.bundle$\|bundle$',
   \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
   \ }
 
