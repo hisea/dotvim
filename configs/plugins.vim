@@ -45,6 +45,8 @@ let g:airline_branch_prefix = '⎇ '
 " BufExplorer
 map <C-b> :BufExplorerHorizontalSplit<CR>
 
+map <C-f> :CtrlSpace<CR>
+
 " CtrlP
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|.bundle$\|bundle$',
@@ -94,11 +96,13 @@ let g:syntastic_auto_loc_list=2
 
 
 " make YCM compatible with UltiSnips (using supertab)
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
+"let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+"let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " better key bindings for UltiSnipsExpandTrigger
 let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsListSnippets  = "<C-CR>"
+"let g:UltiSnipsExpandTrigger="<C-CR>"
+"let g:UltiSnipsJumpForwardTrigger="<C-tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
