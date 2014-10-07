@@ -1,9 +1,9 @@
 ### Install
 > git clone git@github.com:hisea/dotvim.git .vim
 
-> ln -s .vim/vimrc .vimrc
+> ln -s .vim/vimrc.symlink .vimrc
 
-> ln -s .vim/gvimrc .gvimrc
+> ln -s .vim/gvimrc.symlink .gvimrc
 
 > cd .vim
 
