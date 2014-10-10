@@ -26,7 +26,6 @@ if v:version >= 703
     set undofile
 endif
 
-let g:syntastic_javascript_checkers = ['jshint']
 
 ""
 "" Whitespace

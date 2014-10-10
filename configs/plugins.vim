@@ -93,6 +93,8 @@ let NERDTreeWinSize=36
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_auto_loc_list=2
+let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_ruby_checkers = ['rubocop']
 
 
 " make YCM compatible with UltiSnips (using supertab)
