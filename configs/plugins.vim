@@ -58,7 +58,7 @@ let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_extensions = ['funky']
 
 " EasyMotion
-let g:EasyMotion_leader_key = '<Leader>e'
+"let g:EasyMotion_leader_key = '<Leader>e'
 
 " GitGutter
 map <leader>gg :GitGutterToggle<CR>
