@@ -12,8 +12,9 @@ if has("gui_macvim") && has("gui_running")
     " <C-F> if we can still map <C-f> to <S-Down>
     map <C-F> :Ag<space>
   endif
-
   map <C-f> <S-Down>
+else
+  map <leader>ag :Ag<space>
 endif
 
 
@@ -56,6 +57,7 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_dont_split = 'NERD_tree_2'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_extensions = ['funky']
+map <Leader>cc :CtrlPClearAllCaches<CR>
 
 " EasyMotion
 "let g:EasyMotion_leader_key = '<Leader>e'
