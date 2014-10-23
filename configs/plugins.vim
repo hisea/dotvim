@@ -57,13 +57,13 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_dont_split = 'NERD_tree_2'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_extensions = ['funky']
-map <Leader>cc :CtrlPClearAllCaches<CR>
+map <Leader>p :CtrlPClearAllCaches<CR>
 
 " EasyMotion
 "let g:EasyMotion_leader_key = '<Leader>e'
 
 " GitGutter
-map <leader>gg :GitGutterToggle<CR>
+map <leader>gt :GitGutterToggle<CR>
 
 let g:gitgutter_enabled = 0
 
@@ -75,6 +75,10 @@ else
   map <leader>/ <plug>NERDCommenterToggle<CR>
   imap <leader>/ <Esc><plug>NERDCommenterToggle<CR>i
 endif
+
+" Fugitive
+map <leader>gg :Gstatus<CR>
+map <leader>gb :Gblame<CR>
 
 " NERDTree
 "autocmd vimenter * if !argc() | NERDTree | endif

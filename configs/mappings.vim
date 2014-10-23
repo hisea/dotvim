@@ -12,6 +12,9 @@ map <leader>rv :so $MYVIMRC<CR>
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 
+" Toggle Line Number
+nmap <leader>ll :set number! number?<cr>
+
 " format the entire file
 nmap <leader>fef ggVG=
 
