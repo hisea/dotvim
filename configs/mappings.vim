@@ -15,6 +15,8 @@ imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 " Toggle Line Number
 nmap <leader>ll :set number! number?<cr>
 
+nmap <leader>q :Kwbd<cr>
+
 " format the entire file
 nmap <leader>fef ggVG=
 
