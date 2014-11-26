@@ -125,17 +125,17 @@ if has("gui_macvim") && has("gui_running")
 else
   " Map command-[ and command-] to indenting or outdenting
   " while keeping the original selection in visual mode
-  vmap <A-]> >gv
-  vmap <A-[> <gv
+  vmap <leader>] >gv
+  vmap <leader>[ <gv
 
-  nmap <A-]> >>
-  nmap <A-[> <<
+  nmap <leader>] >>
+  nmap <leader>[ <<
 
-  omap <A-]> >>
-  omap <A-[> <<
+  omap <leader>] >>
+  omap <leader>[ <<
 
-  imap <A-]> <Esc>>>i
-  imap <A-[> <Esc><<i
+  imap <leader>] <Esc>>>i
+  imap <leader>[ <Esc><<i
 
   " Bubble single lines
   nmap <C-Up> [e
