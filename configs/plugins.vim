@@ -48,16 +48,46 @@ map <C-b> :BufExplorerHorizontalSplit<CR>
 
 map <C-f> :CtrlSpace<CR>
 
-" CtrlP
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|.bundle$\|bundle$',
-  \ 'file': '\.pyc$\|\.pyo$\|\.rbc$|\.rbo$\|\.class$\|\.o$\|\~$\',
-  \ }
+" Unite
+"The prefix key.
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+"Start insert.
+call unite#custom#profile('default', 'context', {'start_insert': 1 })
 
-let g:ctrlp_dont_split = 'NERD_tree_2'
-let g:ctrlp_cmd = 'CtrlP'
-let g:ctrlp_extensions = ['funky']
-map <Leader>p :CtrlPClearAllCaches<CR>
+"Like ctrlp.vim settings.
+call unite#custom#profile('default', 'context', {'start_insert': 1,'winheight': 10, 'direction': 'botright'})
+
+"Prompt choices.
+call unite#custom#profile('default', 'context', {'prompt': '» '})
+
+nnoremap [unite] <Nop>
+nmap f [unite]
+nnoremap <silent> [unite]o :<C-u>Unite outline<CR>
+"nnoremap <silent> [unite]f :<C-u>Unite -buffer-name=resume resume<CR>
+nnoremap <silent> [unite]ma :<C-u>Unite mapping<CR>
+nnoremap <silent> [unite]me :<C-u>Unite output:message<CR>
+nnoremap [unite]f :<C-u>Unite source<CR>
+
+nnoremap <silent> [unite]a :<C-u>Unite -buffer-name=files -no-split jump_point file_point buffer_tab file_rec:! file file/new<CR>
+
+let g:unite_source_history_yank_enable = 1
+nnoremap [unite]y :Unite history/yank<cr>
+
+let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
+
+nnoremap <C-p> :<C-u>Unite -start-insert file_rec<CR>
+nnoremap <silent> [unite]b :<C-u>Unite -quick-match buffer bookmark<CR>
+nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
+
+let g:unite_source_grep_command = 'ag'
+let g:unite_source_grep_default_opts =
+  \ '--line-numbers --nocolor --nogroup --hidden --ignore ' .
+  \  '''.hg'' --ignore ''.svn'' --ignore ''.git'' --ignore ''.bzr'''
+let g:unite_source_grep_recursive_opt = ''
+nnoremap [unite]s :Unite grep:.<cr>
+
+"Crtl Space
+let g:ctrlspace_use_mouse_and_arrows_in_term = 1
 
 " EasyMotion
 "let g:EasyMotion_leader_key = '<Leader>e'
