@@ -62,13 +62,13 @@ call unite#custom#profile('default', 'context', {'prompt': '» '})
 
 nnoremap [unite] <Nop>
 nmap f [unite]
-nnoremap <silent> [unite]o :<C-u>Unite outline<CR>
+"nnoremap <silent> [unite]o :<C-u>Unite outline<CR>
 "nnoremap <silent> [unite]f :<C-u>Unite -buffer-name=resume resume<CR>
 nnoremap <silent> [unite]ma :<C-u>Unite mapping<CR>
 nnoremap <silent> [unite]me :<C-u>Unite output:message<CR>
-nnoremap [unite]f :<C-u>Unite source<CR>
+nnoremap [unite]o :<C-u>Unite source<CR>
 
-nnoremap <silent> [unite]a :<C-u>Unite -buffer-name=files -no-split jump_point file_point buffer_tab file_rec:! file file/new<CR>
+nnoremap <silent> [unite]f :<C-u>Unite -buffer-name=files -no-split jump_point file_point buffer_tab file_rec:! file file/new<CR>
 
 let g:unite_source_history_yank_enable = 1
 nnoremap [unite]y :Unite history/yank<cr>
