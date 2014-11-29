@@ -75,7 +75,7 @@ nnoremap [unite]y :Unite history/yank<cr>
 
 let g:unite_source_rec_async_command = 'ag --follow --nocolor --nogroup --hidden -g ""'
 
-nnoremap <C-p> :<C-u>Unite -start-insert file_rec<CR>
+nnoremap <C-p> :<C-u>Unite -start-insert file_rec/async<CR>
 nnoremap <silent> [unite]b :<C-u>Unite -quick-match buffer bookmark<CR>
 nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
 
