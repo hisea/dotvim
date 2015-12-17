@@ -19,6 +19,8 @@ set showmatch " show matching brackets
 set cursorline
 set visualbell
 set smartindent
+set shell=bash
+
 
 if v:version >= 703
     "undo settings
